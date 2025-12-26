@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Futuristic Dark Theme - Cyberpunk/Sci-Fi inspired */
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Rajdhani', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  --background: 222 47% 6%;      /* Dark Navy #0f172a */
+  --foreground: 210 40% 98%;     /* Off-white text */
+
+  --primary: 190 100% 50%;       /* Cyan/Electric Blue #00FFFF */
+  --primary-foreground: 222 47% 10%;
+
+  --secondary: 262 80% 60%;      /* Purple Accent */
+  --secondary-foreground: 210 40% 98%;
+
+  --muted: 217 33% 17%;          /* Darker gray/blue for backgrounds */
+  --muted-foreground: 215 20% 65%;
+
+  --accent: 190 100% 50%;        /* Cyan again for strict accents */
+  --accent-foreground: 222 47% 10%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 217 33% 20%;
+  --input: 217 33% 17%;
+  --ring: 190 100% 50%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/30 selection:text-primary;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 rounded-full hover:bg-primary/50 transition-colors;
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  @apply bg-background/60 backdrop-blur-md border border-white/10 shadow-xl;
+}
+
+.glass-card {
+  @apply bg-muted/40 backdrop-blur-sm border border-white/5 hover:border-primary/50 transition-all duration-300;
+}
+
+/* Neon Text Effect */
+.text-glow {
+  text-shadow: 0 0 10px hsla(var(--primary), 0.5), 0 0 20px hsla(var(--primary), 0.3);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 10px hsla(var(--secondary), 0.5), 0 0 20px hsla(var(--secondary), 0.3);
+}

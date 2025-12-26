@@ -1,0 +1,242 @@
+
+You are a senior full-stack web developer and creative UI/UX designer.
+Your task is to design and develop a modern, sleek, 3D-animated portfolio website for a Computer Engineering fresher with 3d live animations on background and 3d cursor
+
+The website must professionally showcase:
+
+Technical skills (Python, HTML, CSS)
+
+Education (Diploma in Computer Engineering)
+
+Fresher-level experience
+
+Personal projects
+
+A functional contact page having phone no: +917298086629 location jammu,India  email : anguralrahul7205@gmail.com
+
+The final result should feel clean, futuristic, interactive, and performance-optimized.
+
+Required Technology Stack
+
+Use the following technologies and integrate them appropriately:
+
+Next.js → App Router for routing, SEO, and performance
+
+React.js → Component-based UI architecture
+
+TypeScript → Type safety and maintainable code
+
+Barba.js → Smooth page transitions and navigation animations
+
+Three.js → 3D animations, backgrounds, and interactive visuals
+
+CSS Modules or Tailwind CSS → Modern styling approach
+
+Tailwind CSS - Responsive styling
+
+Design Theme & Visual Direction
+
+Theme: Modern, sleek, minimal with futuristic accents and 3d animations
+
+Color Palette:
+
+Dark or neutral background
+
+Accent colors (electric blue, cyan, soft purple)
+
+UI Style:
+
+Clean layouts
+
+Glassmorphism cards
+
+Soft shadows and subtle gradients
+
+Typography:
+
+Modern sans-serif fonts
+
+Clear visual hierarchy
+
+Motion Design:
+
+Smooth transitions
+
+Subtle hover effects
+
+Scroll-based animations
+
+Website Structure & Section Requirements
+1️⃣ Homepage
+
+Full-screen hero section
+
+Display:
+
+Name Rahul Angural
+
+Title: “Computer Engineering Fresher | Python & Web Developer”
+
+Short introduction text
+
+Call-to-action buttons:
+
+“View Projects”
+
+“Contact Me”
+
+Three.js integration:
+
+3D background (particles, rotating geometry, or abstract shapes)
+
+Smooth entry animations on load
+
+2️⃣ Education Section
+
+Clearly display:
+
+Diploma in Computer Engineering
+
+Institution name (placeholder)
+
+Year of completion (2026)
+
+Timeline or card-based layout
+
+Animations on scroll
+
+Clean and professional presentation
+
+3️⃣ Skills Section
+
+Display skills using visually engaging components:
+
+Skills to include
+
+Python Programming
+
+HTML5
+
+CSS3
+
+UI Behavior
+
+Animated progress indicators or skill cards
+
+Hover animations
+
+Subtle motion effects
+
+4️⃣ Experience Section (Fresher)
+
+Highlight Fresher / Entry-Level Developer
+
+Focus on:
+
+Strong fundamentals
+
+Practice projects
+
+Willingness to learn
+
+Use cards or timeline format
+
+Animate content on scroll
+
+5️⃣ Projects Section
+
+Grid-based layout
+
+Each project card should include:
+
+Project title
+
+Short description
+
+Technologies used
+
+GitHub / Live demo links (https://github.com/anguralrahul7205)
+
+Hover interactions:
+
+Tilt or depth effect
+
+Optional:
+
+Clickable project details page
+
+Barba.js for smooth transitions between pages
+
+6️⃣ Contact Page
+
+Minimal, modern contact form
+
+Fields:
+
+Name
+
+Email
+
+Message
+
+Frontend validation using TypeScript
+
+Animated focus states
+
+Success / error feedback UI
+
+Optional social links section
+
+Animation & Interaction Guidelines
+
+Use Barba.js for:
+
+Page-to-page transitions
+
+Smooth navigation experience
+
+Use Three.js for:
+
+Hero background animation
+
+Decorative 3D elements
+
+Avoid excessive animations; prioritize performance
+
+Ensure animations degrade gracefully on low-end devices
+
+Technical & Architectural Expectations
+
+Modular, reusable React components
+
+Clean folder structure:
+
+/app
+/components
+/sections
+/styles
+/public
+/utils
+
+
+Fully responsive design
+
+SEO-friendly metadata
+
+Accessible UI (labels, contrast, keyboard navigation)
+
+Optimized loading and rendering
+
+Final Output Requirements
+
+A complete, runnable Next.js + TypeScript project
+
+Placeholder content where required
+
+Easy customization for future updates
+
+Code written using modern best practices
+
+End Goal
+
+Create a professional, modern, and visually engaging 3D portfolio website with 3d animation background that helps a Computer Engineering fresher confidently present skills, education, and projects to recruiters.
